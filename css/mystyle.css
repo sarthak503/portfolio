@@ -1,0 +1,117 @@
+body {
+background-color : white;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+        font-size: 1.5vw;
+
+ }
+
+h1 {
+  color: white;
+  font-family: 'Bangers', cursive;
+
+font-size : 4vw;
+text-align: center;
+text-align-last: center;  
+-webkit-text-stroke-width: 0.08vw;
+-webkit-text-stroke-color: black;
+font-style: bold ;
+
+background-color: rgba(180,130,140,1);
+ border:0.06vw solid magenta;
+ margin-left: 37vw;
+ margin-right: 37vw; 
+ 
+}
+h2 
+{
+  color: rgba(255,40,155,1); ;
+font-family: 	Times New Roman
+Georgia;
+font-size : 2vw;
+text-align-last: left;  
+padding-left : .5vw;
+
+font-style: bold ;
+
+background-color: rgba(220,220,220,1);
+ 
+  margin-left: .5vw;
+margin-right: 76vw;
+}
+h3 {
+color: navy;
+font-family: 	Times New Roman
+Georgia;
+font-size : 2vw;
+text-align-last: left;  
+padding-left : .5vw;
+
+font-style: bold ;
+
+background-color: rgba(220,220,220,1);
+ 
+  margin-left: .5vw;
+margin-right:76vw;
+
+}
+table
+{
+	font-size: 1.5vw;
+	border-spacing: 0vw;
+}
+td
+{
+		color:rgb(60,60,255);
+}
+table ,th ,td
+{
+
+	border: 0.0062vw solid black ;
+	
+	}
+	th, td {
+  padding: 1vw;
+}
+th
+{
+	color:black;
+	text-align: left;
+}
+p{
+font-style: bold;
+
+}
+p1 {
+text-align: left; 
+font-size:1.5vw; 
+color:rgb(255,0,80);
+
+}
+
+p2 {
+	font-size:1vw;
+ color:rgb(255,0,255);
+ text-align: right;
+  }
+
+  #name{
+   background-color: red;
+  }
+
+  .responsive{
+  	width: 14vw;
+  	height: 15vw;
+  }
+  .invisibletab{
+  	color:black;
+  	font-size:1.5vw;
+  	font-weight:bold
+  	border:0;
+  }
+
+#t1 td th, table
+{
+	width: 60%;
+	color: black;
+	border:0;
+	}
