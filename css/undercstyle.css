@@ -1,0 +1,48 @@
+body{
+
+    background-image: url("https://blog.exitbee.com/wp-content/uploads/2016/10/coming-soon-landing-page.gif");
+    height: auto;
+    background-repeat: no-repeat;
+
+}
+.checkback{
+    display: flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.8rem;
+    color: whitesmoke;
+}
+.timerSection{
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+       margin-top:7%;
+       padding-left: 22%;
+       padding-right: 22%;
+    }
+.timer{
+    
+    width: 7.5rem;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    border-radius: .625rem;
+    box-shadow: 1.5vw 1vw 2vw #6660;
+    cursor: pointer;
+}
+.time{
+    color: #fff;
+    font-size: 2.813rem;
+    margin: 1.563rem 0.5rem;
+}
+h6{
+    margin: 0;
+    padding: 0.625rem;
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;
+    background:lawngreen;
+    color: black;
+    text-transform: uppercase;
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+    box-shadow: .938px 0.625rem 1.25rem #000;
+}
