@@ -1,112 +1,142 @@
-.navbar{
-    background-color: #4CAF50;
-    margin: 0 ;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .but0{
-    
-    font-family: 'Source Sans Pro', sans-serif;
-    justify-content: center;
-  }
-  
+.navbar {
+  background-color: #4caf50;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.but0 {
+  font-family: "Source Sans Pro", sans-serif;
+  justify-content: center;
+}
+
 .button {
-    background-color: #4CAF50; /* Green */
-    font-family: 'Source Sans Pro', sans-serif;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    margin-top:2% ;
-    text-decoration: none;
-    display: flex;
-    font-size: 1.35em;
-    margin: 2px 2px;  
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
-  
-  .button1 {
-    
-    background-color: white; 
-    color: black; 
-    border: 2px solid #4CAF50;
-    
-    
-  }
-  
-  .button1:hover {
-    background-color: #4CAF50;
-    color: white;
-    text-decoration: none;
-  }
-  a:link{
-    text-decoration: none;
-  }
-  .btn{
-    display: flex;
-    justify-content: center;
-    
-  }
-  .but0{
-    border: 2px solid white;
-    font-size: 1.2em;
-    width: 17.35em;
-  }
-  
- 
-  .footer{ 
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-  }
-  
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 18px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-github{
-    background:black;
-    color: white;
-  }
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  .contact{
-    display: flex;
-    margin-top: 20%;
-    font-family: 'Varela Round', sans-serif;
-    justify-content: center;
-    color:#430099;
-  }
+  background-color: #4caf50; /* Green */
+  font-family: "Source Sans Pro", sans-serif;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  margin-top: 2%;
+  text-decoration: none;
+  display: flex;
+  font-size: 1.35em;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.demo {
+  background-color: rgb(200, 201, 204);
+  font-family: "Source Sans Pro", sans-serif;
+  border: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 0.5px 0.5px;
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid #4caf50;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.demo:hover {
+  background-color: rgb(53, 85, 231);
+  color: white;
+  text-decoration: none;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+.button1:hover {
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.but0 {
+  border: 2px solid white;
+  font-size: 1.2em;
+  width: 17.1em;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 40px;
+}
+.content {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+}
+.head {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.points {
+  color: #bb0000;
+  font-weight: bold;
+}
+span {
+  color: rgb(53, 85, 231);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-quora {
+  background: black;
+  color: rgb(255, 2, 2);
+}
+.fa-github {
+  background: black;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.contact {
+  display: flex;
+  margin-top: 6%;
+  font-family: "Varela Round", sans-serif;
+  justify-content: center;
+  color: #430099;
+}
