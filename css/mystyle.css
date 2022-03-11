@@ -16,13 +16,7 @@
 body {
   background-color: rgb(233, 233, 233);
 }
-/* .navbar {
-  background-color: gray;
-  display: flex;
-  padding-left: 35%;
-  flex-direction: column;
-  justify-content: space-around;
-} */
+
 .but0 {
   font-family: "Source Sans Pro", sans-serif;
   justify-content: center;
@@ -40,16 +34,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: left;
+  margin-top: -8%;
 }
 .heading1 {
   font-size: 2.2rem;
   font-family: "Quicksand", sans-serif;
   color: yellow;
   margin-top: 10%;
-  margin-left: 12%;
+  margin-left: 0%;
 }
-.title {
-  color: rgb(216, 108, 21);
+.aboutTitle {
+  color: rgb(21, 216, 157);
   text-align: center;
   font-family: "Readex Pro", sans-serif;
   font-size: 2.2rem;
@@ -60,56 +55,41 @@ hr.rounded {
   width: 40%;
   margin-left: 30%;
 }
+.para1 {
+  font-size: 1.2rem;
+  font-family: "Mukta", sans-serif;
+  color: whitesmoke;
+  margin-left: 0%;
+}
 .para {
   margin: 2%;
-  color: rgb(2, 129, 13);
+  color: rgb(56, 0, 160);
   padding-left: 20%;
   padding-right: 20%;
   font-size: 20px;
   font-family: "Mukta", sans-serif;
 }
-.para1 {
-  font-size: 1.2rem;
-  font-family: "Mukta", sans-serif;
-  color: whitesmoke;
-  margin-left: 12%;
-}
+
 .img {
   display: inline-block;
   flex-wrap: wrap;
   align-items: left;
   justify-content: left;
-  margin-left: 70%;
-  margin-top: -13%;
+  margin-left: 10%;
+  margin-top: 11%;
 }
 .imgprop {
   width: 180px;
   height: 180px;
   border-radius: 70%;
 }
-.content {
-  font-family: "Roboto Mono", monospace;
-  font-size: 14px;
-}
-.head {
-  font-size: 18px;
-  font-weight: bolder;
-}
-.points {
-  color: #bb0000;
-  font-weight: bold;
-}
-.heading {
+
+.projects {
   display: flex;
   justify-content: center;
   font-family: "Readex Pro", sans-serif;
-  font-size: 40px;
+  font-size: 2.2rem;
   color: rgb(53, 85, 231);
-}
-span {
-  color: rgb(53, 85, 231);
-  font-weight: bold;
-  font-size: 16px;
 }
 button {
   background-color: #fdfdfd; /* Green */
@@ -141,8 +121,9 @@ a:link {
 }
 .btn {
   display: flex;
-  justify-content: center;
-  margin: 2%;
+  justify-content: flex-start;
+  margin-left: 10%;
+  margin-top: 2%;
 }
 
 .footer {
@@ -193,4 +174,38 @@ a:link {
   font-family: "Varela Round", sans-serif;
   justify-content: center;
   color: #430099;
+}
+@media only screen and (max-width: 1024px) {
+  .intro {
+    height: 650px;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .heading1 {
+    font-size: 1.6rem;
+    margin-left: 11%;
+  }
+  .para1 {
+    margin-left: 11%;
+    margin-right: 11%;
+  }
+  .para1,
+  .para {
+    font-size: 1rem;
+  }
+  .aboutTitle {
+    font-size: 1.8rem;
+  }
+  .btn {
+    justify-content: center;
+    margin-left: 0%;
+    margin-top: 35px;
+  }
+  .projects {
+    font-size: 1.8rem;
+  }
 }
