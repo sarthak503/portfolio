@@ -2,47 +2,103 @@
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet"  href=".\css\mystyle.css">
 	<link rel="icon" href=".\logo_title.ico" type="image/ico" />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<title> Resume </title>
+<title> Sarthak Kumar </title>
 </head>
-<header class="navbar">
+<!-- <header class="navbar">
 	<div class="btnN">
-		<a href="#"><button class="but0 button button1"> Home</button> </a>
+		<a href="#"><button class="but0 "> Home</button> </a>
 	</div>
 	<div class="btnN">
-		<a href="./projects.html"><button class="but0 button button1"> Projects </button> </a>
+		<a href="#about"><button class="but0 "> About me </button> </a>
 	</div>
 	<div class="btnN">
-		<a href="./about.html"><button class="but0 button button1"> About me</button> </a>
+		<a href="#project"><button class="but0 "> Projects</button> </a>
 	</div>
 	<div class="btnN">
-		<a href="#contactus"><button class="but0 button button1"> Contacts </button> </a>
+		<a href="#contactus"><button class="but0 "> Contacts </button> </a>
 	</div>
-</header>
+</header> -->
+
+
 <section class="intro">
 	<h1 class="heading1">Hi, I am Sarthak Kumar, Btech CSE student</h1>
 	<p class="para1">
 		I am currently persuing Bachelor of Technology in Computer Science & Engineering<br> 
 		at Indian Institute of Information Technology, Tiruchirappalli,Tamil Nadu . <br>
-		
-</section>
-<section class="img">
-	<img class="imgprop" src="./img/Sk.jpeg" alt="sk">
-</section>
-<div class="btn">
-	<a href="./Files/Sarthak_Kumar_Resume.docx.pdf" target="_blank" ><button class="button button1"> Check Resume</button> </a>
-</div>
 
+	<section class="img">
+		<img class="imgprop" src="./img/Sk_photo.jpeg" alt="sk">
+	</section>
+
+	<div class="btn">
+		<a href="./Files/Sarthak_Kumar_Resume.docx.pdf" target="_blank" ><button class="button "> Check Resume</button> </a>
+	</div>
+</section>
+
+
+
+<!-- ABOUT SECTION  -->
+
+<section id="about">
+	<br>
+	<h1 class="title">A Little About me</h1>
+    <p class="para">Hello, My name is Sarthak Kumar. 
+		I am from India. I consider that we all have some sort of passion about something which motivates us 
+		everyday. Same applies to me, my passion for
+		 engineering and tech has increased a lot day by day.
+		 I see lot more potential which tech has and together if we work and take the initiatives,
+		  we can make world a better place.
+		  <br>
+		 I want to be software engineer and be a part of the initiative.
+		Looking for some opportunity to showcase my talent and enhance my skills.
+	</p>
+</section>
+<hr class="rounded">
+
+<!-- PROJECT SECTION  -->
+<br>
+<h2 class ="heading" id="project">List of Projects </h2>
+<div class="content">
+ <ul>
+	 <li class="head">Developed an API &nbsp; <a href="https://github.com/sarthak503/CrudApp" target="_blank" ><button >See the Repo</button></a></li>
+	 <ul class="points">
+		 <li>Developed two get routes, one post route and one delete route</li>
+		 <li>Developed the project using Node JS, Express JS</li>
+		 <li>Stored the data in MongoDB database</li>
+	 </ul>
+	 <br>
+	 <li class="head">Implemented a Countdown Timer for IIIT Trichy’s Convocation’21’s official website &nbsp <a href="https://wonderful-roentgen-1fb957.netlify.app/" target="_blank" ><button>See the Demo</button></a></li>
+	 <ul class="points">
+		 <li>Developed the countdown using VanillaJS, HTML and CS</li>
+		 <li>Implemented the application for multiple devices thus being responsive.</li>
+		 <li>Deployed the application on Netlify.</li>
+	 </ul>
+	 <br>
+	 <li class="head">Mini Projects</li>
+	 <br>
+	 <ul>
+		 <li><span >Slider</span>  &nbsp <a href="https://angry-beaver-7792f0.netlify.app/" target="_blank" ><button >See the Demo</button></a></button></li>
+		 
+		 <ul class="points">
+			 <li>Developed a Slider app which changes CSS variables via VanillaJs</li>
+			 <li>Deployed the application on Netlify.</li>
+		 </ul>	
+		 <br>
+		 <li> <span>Drum Kit</span> <a href="https://awesome-golick-729620.netlify.app/" target="_blank" ><button class="">See the Demo</button></a></button></li>
+		 <ul class="points">
+			 <li>Simple application which can simulate a drum kit</li>
+			 <li>Developed a Drum kit using HTML , CSS and VanillaJS.</li>
+			 <li>Deployed the application on Netlify.</li>
+		 </ul>	
+	 </ul>
+ 
+ </ul>
+</div>
+<!-- CONTACT US SECTION  -->
 <div>
 	<h1 class="contact"> < CONTACTS ></h1>
 	<footer class="footer">
@@ -60,7 +116,7 @@
 		</p>
 	</footer>
 </div>
-
+<script src="./js/index.js"></script>
 <body>
 </body>
 </html>
