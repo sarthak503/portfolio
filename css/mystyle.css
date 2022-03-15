@@ -36,7 +36,7 @@ body {
   align-items: left;
   margin-top: -8%;
 }
-.heading1 {
+.heading {
   font-size: 2.2rem;
   font-family: "Quicksand", sans-serif;
   color: yellow;
@@ -50,10 +50,10 @@ body {
   font-size: 2.2rem;
 }
 hr.rounded {
-  border-top: 3px solid #bbb;
+  border-top: 3px solid rgb(121, 4, 5);
   border-radius: 10px;
-  width: 40%;
-  margin-left: 30%;
+  width: 50%;
+  margin-left: 25%;
 }
 .para1 {
   font-size: 1.2rem;
@@ -84,12 +84,37 @@ hr.rounded {
   border-radius: 70%;
 }
 
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skillimg {
+  width: 100px;
+  height: 100px;
+}
 .projects {
   display: flex;
   justify-content: center;
   font-family: "Readex Pro", sans-serif;
   font-size: 2.2rem;
   color: rgb(53, 85, 231);
+}
+.skill {
+  color: #422741;
+}
+.miniprojects {
+  display: flex;
+  justify-content: center;
+  font-family: "Readex Pro", sans-serif;
+  color: rgb(53, 85, 231);
+  font-size: 1.8rem;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
 }
 button {
   background-color: #fdfdfd; /* Green */
@@ -129,7 +154,7 @@ a:link {
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: 2%;
+  /* //margin-top: 1%; */
 }
 
 .fa {
@@ -170,10 +195,10 @@ a:link {
 }
 .contact {
   display: flex;
-  margin-top: 20%;
-  font-family: "Varela Round", sans-serif;
+  margin-top: 5%;
+  font-family: "Readex Pro", sans-serif;
   justify-content: center;
-  color: #430099;
+  color: #322742;
 }
 @media only screen and (max-width: 1024px) {
   .intro {
@@ -183,9 +208,9 @@ a:link {
     display: flex;
     justify-content: center;
     margin-left: 0;
-    margin-top: 0;
+    margin-top: 2%;
   }
-  .heading1 {
+  .heading {
     font-size: 1.6rem;
     margin-left: 11%;
   }
@@ -207,5 +232,22 @@ a:link {
   }
   .projects {
     font-size: 1.8rem;
+  }
+  .miniprojects {
+    font-size: 1.5rem;
+  }
+  .skills {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skillimg {
+    margin: 10px;
+  }
+}
+@media only screen and (min-width: 767) and (max-width: 1024px) {
+  .heading,
+  .para1 {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
