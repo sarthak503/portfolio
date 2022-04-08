@@ -144,13 +144,24 @@ button:hover {
 a:link {
   text-decoration: none;
 }
-.btn {
+.btn1 {
   display: flex;
   justify-content: flex-start;
   margin-left: 10%;
   margin-top: 2%;
 }
+.contactme{
+  font-size: 20px;
+  margin-left: 150px;
 
+}
+.contactlink{
+  text-decoration: none; 
+  
+}
+.contactlink:hover{
+  color: aliceblue;
+}
 .footer {
   display: flex;
   justify-content: center;
@@ -193,6 +204,12 @@ a:link {
   background: #125688;
   color: white;
 }
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45%;
+}
 .contact {
   display: flex;
   margin-top: 5%;
@@ -200,6 +217,7 @@ a:link {
   justify-content: center;
   color: #322742;
 }
+
 @media only screen and (max-width: 1024px) {
   .intro {
     height: 650px;
@@ -225,7 +243,7 @@ a:link {
   .aboutTitle {
     font-size: 1.8rem;
   }
-  .btn {
+  .btn1 {
     justify-content: center;
     margin-left: 0%;
     margin-top: 35px;
@@ -243,6 +261,22 @@ a:link {
   .skillimg {
     margin: 10px;
   }
+  .skillimg{
+    width: 70px;
+    height: 70px;
+  }
+  .contactme{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contactme{
+    font-size: 15px;
+    margin-left: 45px;
+  
+  }
+  .btnContact{
+    margin-left: 35%;
+  }
 }
 @media only screen and (min-width: 767) and (max-width: 1024px) {
   .heading,
@@ -250,4 +284,6 @@ a:link {
     margin-left: 15%;
     margin-right: 15%;
   }
+ 
+  
 }
