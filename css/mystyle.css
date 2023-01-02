@@ -25,7 +25,7 @@ body {
   width: 17.1em;
 }
 .intro {
-  background-image: url("/giphy.gif");
+  background-image: url("../img/giphy.gif");
   background-size: cover;
   background-repeat: repeat;
   height: 500px;
